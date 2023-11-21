@@ -62,7 +62,9 @@ class Httpd
     public function start()
     {
         $this->_server = new \Swoole\Http\Server($this->host, $this->port);
-        $this->_server->set($this->setting);
+        $setting = $this->setting;
+        unset($setting['server'];)
+        $this->_server->set($setting);
 
         $this->_server->on(SwooleEvent::START, [$this, 'onStart']);
         $this->_server->on(SwooleEvent::MANAGER_START, [$this, 'onManagerStart']);

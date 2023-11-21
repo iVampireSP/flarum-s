@@ -5,7 +5,7 @@ namespace FlarumS\Server;
 
 use Psr\Http\Message\ResponseInterface;
 use Swoole\Http\Response as SwooleResponse;
-use Zend\HttpHandlerRunner\Emitter\SapiEmitterTrait;
+use Laminas\HttpHandlerRunner\Emitter\SapiEmitterTrait;
 
 /**
  * Class SwooleResponseEmitter

@@ -4,8 +4,8 @@ declare(strict_types=1);
 namespace FlarumS\Server;
 
 use Swoole\Http\Request as SwooleRequest;
-use Zend\Diactoros\ServerRequest;
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\ServerRequest;
+use Laminas\Diactoros\Stream;
 
 /**
  * Class Psr7RequestBuilder
