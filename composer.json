@@ -1,5 +1,5 @@
 {
-    "name": "knik/flarum-s",
+    "name": "ivampiresp/flarum-s",
     "description": "Asynchronous PHP web servers for Flarum.",
     "type": "library",
     "minimum-stability": "beta",
