@@ -24,7 +24,9 @@
     ],
     "require": {
         "php": "*",
-        "ext-swoole": "*"
+        "ext-swoole": "*",
+        "laminas/laminas-diactoros": "^2.26",
+        "laminas/laminas-httphandlerrunner": "^2.9"
     },
     "autoload": {
       "psr-4": {
