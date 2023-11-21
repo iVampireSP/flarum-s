@@ -50,19 +50,19 @@ cd bin
 
 ### 安装扩展后，Flarum 后台没有显示。
 
-因为程序都被加载到内存了，并且不会实时更新。用以下命令重载。
+因为程序都被加载到内存了，并且不会实时更新。用以下命令重启。
 
 ```bash
 cd bin
-./flarum-s service reload
+./flarum-s service restart
 ```
 
 ### 更改 Flarum 设置后，不生效，刷新一下又变回去了。
 
 你的 worker 数量可能有很多个，要让所有 worker 生效，应该可以监听到设置更改后自动重载。但是目前没有实现。
-你可以手动执行这个命令来重载。
+你可以手动执行这个命令来重启。
 
 ```bash
 cd bin
-./flarum-s service reload
+./flarum-s service restart
 ```
