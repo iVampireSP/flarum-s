@@ -8,8 +8,8 @@
     "homepage": "https://flarum.org/",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/et-nik/flarum-s/issues",
-        "source": "https://github.com/et-nik/flarum-s/"
+        "issues": "https://github.com/ivampiresp/flarum-s/issues",
+        "source": "https://github.com/ivampiresp/flarum-s/"
     },
     "authors": [
         {
@@ -20,6 +20,10 @@
             "name": "Nikita Kuznetsov",
             "email": "nikita.hldm@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "iVampireSP",
+            "email": "im@ivampiresp.com",
         }
     ],
     "require": {
